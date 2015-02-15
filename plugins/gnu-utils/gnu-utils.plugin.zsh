@@ -32,8 +32,8 @@ if [[ -x "${commands[gwhoami]}" ]]; then
     # findutils
     gcmds+=('gfind' 'gxargs' 'glocate')
 
-    # Not part of either coreutils or findutils, installed separately.
-    gcmds+=('gsed' 'gtar' 'gtime')
+    # Not part of coreutils, installed separately.
+    gcmds+=('gsed' 'gtar' 'gtime' 'ggrep')
 
     for gcmd in "${gcmds[@]}"; do
       #

@@ -3,4 +3,7 @@ custom/
 
 # temp files directories
 cache/
+
 log/
+.DS_Store
+
