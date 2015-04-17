@@ -23,7 +23,7 @@ env_default 'LESS' '-R'
 
 ## pager
 export PAGER="less"
-export LESS="-R"
+export LESS="-FRSM"
 
 ## super user alias
 alias _='sudo'
