@@ -172,7 +172,8 @@ alias glod="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgre
 alias glods="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --date=short"
 alias glola="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all"
 alias glog='git log --oneline --decorate --graph'
-alias gloga='git log --oneline --decorate --graph --all'
+alias glogall='git log --oneline --decorate --graph --all'
+alias gloga="git log --graph --date=short --pretty='format:%C(yellow)%h %C(cyan)%d %Cgreen%ad %Creset%cd %C(bold blue)%an: %Creset%Cred%<(90,trunc)%s%Creset'"
 alias glp="_git_log_prettily"
 
 alias gm='git merge'
