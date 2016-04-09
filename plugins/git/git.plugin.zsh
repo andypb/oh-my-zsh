@@ -75,6 +75,7 @@ alias gcount='git shortlog -sn'
 alias gcp='git cherry-pick'
 alias gcpa='git cherry-pick --abort'
 alias gcpc='git cherry-pick --continue'
+
 alias gcs='git commit -S'
 
 alias gd='git diff'
@@ -173,7 +174,7 @@ alias glods="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgr
 alias glola="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all"
 alias glog='git log --oneline --decorate --graph'
 alias glogall='git log --oneline --decorate --graph --all'
-alias gloga="git log --graph --date=short --pretty='format:%C(yellow)%h %C(cyan)%d %Cgreen%ad %Creset%cd %C(bold blue)%an: %Creset%Cred%<(90,trunc)%s%Creset'"
+alias gloga="git log --all --graph --pretty='format:%C(yellow)%h %C(cyan)%d %Cgreen%ad %Creset%cd %C(bold blue)%an: %Creset%Cred%<(70,trunc)%s%Creset' --date=short"
 alias glp="_git_log_prettily"
 
 alias gm='git merge'
